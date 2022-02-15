@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	
-	<title>Melbourne Banh Mi Index</title>
+	<title>Melbourne Banh Mi Index Heatmap</title>
 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+	<script src="js/leaflet-heat.js"></script>
 
 	<style>
 		html, body {
@@ -34,6 +35,12 @@
 <script src="data/banhmilocations.geojson" type="text/javascript"></script>
 
 <script>
+	geoJson2heat = function(geojson) {
+	return geojson.features.map(function(feature) {
+	return [parseFloat(feature.geometry.coordinates[1]), parseFloat(feature.geometry.coordinates[0])];
+	});
+	}
+
 	var map = L.map('map').setView([-37.8134, 144.9656], 10);
 
 	var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
@@ -45,14 +52,20 @@
 		zoomOffset: -1
 	}).addTo(map);
 
-	L.geoJSON([banhmilocations], {
-		onEachFeature: function (feature, layer) {
-		layer.bindPopup('<h2>'+feature.properties.name+'</h2><p>Address: '+feature.properties.full_address+'</p>');
-		}
-	}).addTo(map);
+	var geoData = geoJson2heat(banhmilocations, 1);
 
-    map.attributionControl.addAttribution('No guarantee is made as to the accuracy of this map. Made February 2022.');
+	var heatMap = new L.heatLayer(geoData,{minOpacity: 0.25, radius: 35, blur: 20, maxZoom: 17, gradient:{0.1: 'blue', 0.4: 'lime', 1: 'red'}});
 
+	map.addLayer(heatMap);
+
+// Heatmap
+
+	var heat = L.heatLayer(banhmilocations, { radius: 55 });
+    map.addLayer(heat);
+	
+    map.attributionControl.addAttribution('<a href="https://github.com/Leaflet/Leaflet.heat">Leaflet Heat</a> No guarantee is made as to the accuracy of this map. Made February 2022.');
+
+		
 </script>
 
 
