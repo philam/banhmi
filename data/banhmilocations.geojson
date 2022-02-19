@@ -5060,6 +5060,276 @@ var banhmilocations =
     "country":"Australia",
     "country_code":"AU"
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1079,-37.6877 ]
+    },
+    "properties": {
+    "name":"Caffiend",
+    "site":"",
+    "full_address":"12-13/23-29 Civic Dr, Greensborough VIC 3088",
+    "street":"12-13/23-29 Civic Dr",
+    "city":"Greensborough",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.116,-38.053 ]
+    },
+    "properties": {
+    "name":"Longbeach Bakery ",
+    "site":"",
+    "full_address":"415A Nepean Hwy, Chelsea VIC 3196",
+    "street":"415A Nepean Hwy",
+    "city":"Chelsea",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0639,-37.9826 ]
+    },
+    "properties": {
+    "name":"Mentone Bakery Cafe ",
+    "site":"",
+    "full_address":"49 Florence St, Mentone VIC 3194",
+    "street":"49 Florence St",
+    "city":"Mentone",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.5639,-37.686 ]
+    },
+    "properties": {
+    "name":"Pho Delight - Vietnamese Street Food ",
+    "site":"",
+    "full_address":"533-555 High St, Melton VIC 3337",
+    "street":"533-555 High St",
+    "city":"Melton",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.5789,-37.6839 ]
+    },
+    "properties": {
+    "name":"West Melton Bakery ",
+    "site":"",
+    "full_address":"7/425-429 High St, Melton VIC 3337",
+    "street":"7/425-429 High St",
+    "city":"Melton",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.5861,-37.6832 ]
+    },
+    "properties": {
+    "name":"Melton Pho ",
+    "site":"",
+    "full_address":"1/255 High St, Melton VIC 3337",
+    "street":"1/255 High St",
+    "city":"Melton",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.7763,-37.7016 ]
+    },
+    "properties": {
+    "name":"Watergardens Bakery",
+    "site":"",
+    "full_address":"Unit 4 L/399 Melton Hwy, Taylors Lakes VIC 3038",
+    "street":"Unit 4 L/399 Melton Hwy",
+    "city":"Taylors Lakes",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.7807,-37.7255 ]
+    },
+    "properties": {
+    "name":"Kevin's Bakehouse ",
+    "site":"",
+    "full_address":"Shop 2/260 Taylors Rd, Delahey VIC 3037",
+    "street":"Shop 2/260 Taylors Rd",
+    "city":"Delahey",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0036,-37.9491 ]
+    },
+    "properties": {
+    "name":"Lucky Star Bakehouse ",
+    "site":"",
+    "full_address":"24 Waltham St, Sandringham VIC 3191",
+    "street":"24 Waltham St",
+    "city":"Sandringham",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0745,-37.9151 ]
+    },
+    "properties": {
+    "name":"Pastry Supreme Bakehouse ",
+    "site":"",
+    "full_address":"83 Mackie Rd, Bentleigh East VIC 3165",
+    "street":"83 Mackie Rd",
+    "city":"Bentleigh East ",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0575,-37.9208 ]
+    },
+    "properties": {
+    "name":"Bakers Delicious ",
+    "site":"",
+    "full_address":"765 Centre Rd, Bentleigh East VIC 3165",
+    "street":"765 Centre Rd",
+    "city":"Bentleigh East",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0357,-37.935 ]
+    },
+    "properties": {
+    "name":"KT Kitchen ",
+    "site":"",
+    "full_address":"912 Nepean Hwy, Hampton East VIC 3188",
+    "street":"912 Nepean Hwy",
+    "city":"Hampton East",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0588,-37.9507 ]
+    },
+    "properties": {
+    "name":"G Days Cafe ",
+    "site":"",
+    "full_address":"Unit 5A/148 Chesterville Rd, Cheltenham VIC 3192",
+    "street":"Unit 5A/148 Chesterville Rd",
+    "city":"Cheltenham",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0592,-37.9464 ]
+    },
+    "properties": {
+    "name":"Top Viet�s Cafe ",
+    "site":"",
+    "full_address":"Shop 1/157 Chesterville Rd, Moorabbin VIC 3189",
+    "street":"Shop 1/157 Chesterville Rd",
+    "city":"Moorabbin",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0428,-37.9489 ]
+    },
+    "properties": {
+    "name":"MNM Bakery ",
+    "site":"",
+    "full_address":"300 Highett Rd, Highett VIC 3190",
+    "street":"300 Highett Rd",
+    "city":"Highett",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
   }
 ]
 }
