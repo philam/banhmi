@@ -5330,6 +5330,168 @@ var banhmilocations =
     "country":"Australia",
     "country_code":"AU"
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9618,-37.768 ]
+    },
+    "properties": {
+    "name":"K&H Hot Bread Bakery ",
+    "site":"",
+    "full_address":"397 Sydney Rd, Brunswick VIC 3056",
+    "street":"397 Sydney Rd",
+    "city":"Brunswick",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9628,-37.7607 ]
+    },
+    "properties": {
+    "name":"Easy Supermarket ",
+    "site":"",
+    "full_address":"695 Sydney Rd, Brunswick VIC 3056",
+    "street":"695 Sydney Rd",
+    "city":"Brunswick",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9659,-37.7443 ]
+    },
+    "properties": {
+    "name":"Datthanh Bakery",
+    "site":"",
+    "full_address":"389 Sydney Rd, Coburg VIC 3058",
+    "street":"389 Sydney Rd",
+    "city":"Coburg",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.0933,-37.8643 ]
+    },
+    "properties": {
+    "name":"Ashwood Bakery ",
+    "site":"",
+    "full_address":"501 Warrigal Rd, Ashwood VIC 3147",
+    "street":"501 Warrigal Rd",
+    "city":"Ashwood",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.1959,-38.012 ]
+    },
+    "properties": {
+    "name":"Logis Cafe",
+    "site":"",
+    "full_address":"148 Logis Blvd, Dandenong South VIC 3175",
+    "street":"148 Logis Blvd",
+    "city":"Dandenong South",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8016,-37.824 ]
+    },
+    "properties": {
+    "name":"Kimmie's Cafe and Catering ",
+    "site":"",
+    "full_address":"Unit 13/86-90 Pipe Rd, Laverton North VIC 3026",
+    "street":"Unit 13/86-90 Pipe Rd",
+    "city":"Laverton North",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.045,-37.8229 ]
+    },
+    "properties": {
+    "name":"Loc�s Cafe ",
+    "site":"",
+    "full_address":"115 Auburn Rd, Hawthorn VIC 3122",
+    "street":"115 Auburn Rd",
+    "city":"Hawthorn",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.9597,-37.8134 ]
+    },
+    "properties": {
+    "name":"Ho's Bakery ",
+    "site":"",
+    "full_address":"237 Queen St, Melbourne VIC 3000",
+    "street":"237 Queen St",
+    "city":"Melbourne",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.8918,-37.8055 ]
+    },
+    "properties": {
+    "name":"Bicycle Banh Mi ",
+    "site":"",
+    "full_address":"168 Victoria St, Seddon VIC 3011",
+    "street":"168 Victoria St",
+    "city":"Seddon",
+    "postal_code":null,
+    "state":"Victoria",
+    "country":"Australia",
+    "country_code":"AU"
+    }
   }
 ]
 }
